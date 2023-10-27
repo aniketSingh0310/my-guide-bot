@@ -1,13 +1,13 @@
 import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import NewNav from "@/components/newNav";
 
 const Privacy = () => {
     return ( 
         <div className="min-h-screen flex flex-col">
-      <Navbar/>
-    <div className="flex-1 pt-6">
+      <NewNav/>
+    <div className="flex flex-col pt-6 md:px-0 px-6">
       <p className="text-[#42A5FF] text-4xl font-bold text-center tracking-wide font-mono pb-3">Privacy Policy</p>
-      <div className="text-justify px-28 space-y-4 text-black text-[17px]">
+      <div className="text-justify md:px-28 space-y-4 text-black text-[17px]">
         <p>The following terms of the privacy policy (“Privacy Policy”) are by and between VMS Media Private Limited, 
           a company duly incorporated in India (“Company”), which runs and operates www.unstumbled.com (“Website”/“We”/“Our”/”Us”)
            and the end-user/customer (“End-User” or “You” or “Your”) of the Website. </p>
@@ -63,7 +63,7 @@ We may also use third-party advertisements on .com to support our site. Some of 
 You can choose to disable or selectively turn off our cookies or third-party cookies in your browser settings, or by managing preferences. However, this can affect how you are able to interact with our site as well as other websites. This could include the inability to log in to services or programs, such as logging into forums or accounts.</p>
       
       <p className="font-semibold">Flash Cookies </p>
-      <p>Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &apos;Where can I change the settings for disabling, or deleting local shared objects?&apos; available at https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</p>
+      <p className="hidden md:block ">Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &apos;Where can I change the settings for disabling, or deleting local shared objects?&apos; available at https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_</p>
       <p className="font-semibold">Web Beacons</p>
       <p>Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
 

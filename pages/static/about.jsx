@@ -13,7 +13,7 @@ const About = () => {
         <p className=" text-4xl font-bold text-center tracking-wide text-[#42A5FF]">About Us</p>
     </div>
 
-    <div className=" flex-col-reverse md:flex md:flex-row justify-evenly items-center px-28 w-full pt-[40px]">
+    <div className=" flex-col-reverse md:flex md:flex-row justify-evenly items-center px-5 md:px-28 w-full pt-[40px]">
         <div>
            <p className="text-4xl text-[#42A5FF] tracking-wide font-thin pb-3">MyGuideBot</p>
         <p className="text-black/70 tracking-wide text-justify text-[15px] leading-6 md:w-[50%]">MGB serves as your passport to unforgettable travel experiences. We make it effortless to discover, plan, and book cherished experiences,
