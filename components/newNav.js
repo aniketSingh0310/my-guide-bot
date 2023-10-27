@@ -9,6 +9,7 @@ const NewNav = () => {
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
     <div className="w-full navbar bg-base-100">
+      <div className="flex-1 px-2 mx-2"><Image src="/newmgb.png" width={200} height={220} alt="logo"/></div>
       <div className="flex-none lg:hidden">
         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6" stroke="#42A5FF">
@@ -17,7 +18,6 @@ const NewNav = () => {
 
         </label>
       </div> 
-      <div className=" justify-end md:justify-start flex-1 px-2 mx-2"><Image src="/newmgb.png" width={200} height={220} alt="logo"/></div>
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal font-semibold text-[20px]">
           {/* Navbar menu content here */}
