@@ -21,9 +21,11 @@ const Footer = () => {
   
   <nav>
     <header className="footer-title">Contact Us </header> 
-    <a className="link link-hover flex items-center gap-2 text-base"><HiMail className="text-[#42A5FF]"/>mail</a> 
-    <a className="link link-hover flex items-center gap-2 text-base"><FaPhoneAlt className="text-[#42A5FF]"/>Contact</a> 
-    <a className="link link-hover flex items-center gap-2 text-base"><MdLocationOn className="text-[#42A5FF]"/>Jobs</a> 
+    <a className="link link-hover flex items-center gap-2 text-base"><HiMail className="text-[#42A5FF]"/>rajvarma@theserendib.com</a> 
+    <a className="link link-hover flex items-center gap-2 text-base"><FaPhoneAlt className="text-[#42A5FF]"/>+919920811288</a> 
+    <a className="link link-hover flex items-baseline gap-2 text-base"><MdLocationOn className="text-[#42A5FF]"/>Serendib Trading & Properties LLP<br/>
+C-154, 15th Floor, Kalpataru Sparkle, Plot No. C C 23/201,<br/> N. Dharmadikari Road, Bandra Mumbai City Maharashtra 400051
+</a> 
     
   </nav>
 </footer>
