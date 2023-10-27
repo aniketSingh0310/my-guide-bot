@@ -4,7 +4,7 @@ import Link from "next/link";
 const NewNav = () => {
     return (
         <>
-        <div className="drawer z-10">
+        <div className=" sticky top-0 drawer z-10">
   <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
   <div className="drawer-content flex flex-col">
     {/* Navbar */}
