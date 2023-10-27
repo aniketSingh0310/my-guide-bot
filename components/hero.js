@@ -5,7 +5,7 @@ const Hero = () => {
     return ( 
         <>
 
-<div className="hero h-max bg-base-100 pt-11">
+<div className="hero h-max bg-base-100 pt-11 -z-0 pb-10">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <Image src="/bot.jpg" className="max-w-sm rounded-lg shadow-2xl" width={450} height={650} alt="bot"/>
     <div className="text-black">
