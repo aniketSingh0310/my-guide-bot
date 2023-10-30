@@ -21,10 +21,12 @@ export default function Home() {
         {/* Add more meta tags or links to stylesheets/fonts as needed */}
       </Head>
       <NewNav/>
+      
     <div className="flex-1">
       <Hero/>
       
     </div>
+    
     <Footer />
   </div>
   )

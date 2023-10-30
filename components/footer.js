@@ -7,7 +7,7 @@ const Footer = () => {
     return ( 
         <>
 
-<footer className="footer p-10 bg-base-200 text-black">
+<footer className="footer px-5 py-10 bg-base-200 text-black w-full">
   <aside>
   <Image src="/mgb.png" width={200} height={300} alt="logo"/>
     </aside> 
