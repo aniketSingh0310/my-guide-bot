@@ -24,9 +24,8 @@ const About = () => {
     
     <Image  src={"/bot.jpg"} width={500} height={600} alt=""/>
     </div>
-      {/* Your page content goes here */}
-      <h1 className="text-3xl font-bold mb-4">Welcome to My Next.js Project</h1>
-      <p>This is the main content of your home page.</p>
+      
+      
     </div>
     <Footer/>
   </div>
