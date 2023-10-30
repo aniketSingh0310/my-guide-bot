@@ -21,7 +21,7 @@ const About = () => {
         experiences, we&apos;ve got you covered. Our goal is to ensure that you receive relevant advice on the best experiences at any destination through bite-sized
          content, delivered via WhatsApp. Say goodbye to complex apps and cumbersome bookings, and say hello to cherished memories powered by MGB, a guide @ your side.</p>
         
-        <p className="text-black/70 indent-10 tracking-wide text-justify text-[15px] leading-6 md:w-[70%] pt-5">MyGuideBot is led by the Industry experts and senior professionals who understand the modern trends in Travel and the role of technology in solving the challenges faced by Travellers.</p>
+        <p className="text-black/70 indent-10 tracking-wide text-justify text-[15px] leading-6 md:w-[70%] py-5">MyGuideBot is led by the Industry experts and senior professionals who understand the modern trends in Travel and the role of technology in solving the challenges faced by Travellers.</p>
         </div>
     
     <Image src={"/bot.jpg"} width={500} height={600} alt=""/>

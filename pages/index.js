@@ -1,16 +1,15 @@
 import Footer from '@/components/footer'
 import Hero from '@/components/hero'
-import Navbar from '@/components/navbar'
 import NewNav from '@/components/newNav'
 import Head from 'next/head'
-import Image from 'next/image'
+
 
 
 
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col">
       <Head>
         <title>MyGuideBot</title>
         <meta
@@ -21,8 +20,9 @@ export default function Home() {
         {/* Add more meta tags or links to stylesheets/fonts as needed */}
       </Head>
       <NewNav/>
+          
       
-    <div className="flex-1">
+    <div className="">
       <Hero/>
       
     </div>
